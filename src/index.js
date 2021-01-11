@@ -10,7 +10,9 @@ ReactDOM.render(
     <h1> Hello react App </h1>
     <p> this is a pragraph</p>
     <p>My full name is {fname} {lname}</p>
+    <p> he is a doctor </p>
     </>
+    
       
     
   ,
