@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+const fname = "nurul";
+const lname = "islam"
+const fullName = fname + " "+ lname
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <>
+    <h1> Hello react App </h1>
+    <p> this is a pragraph</p>
+    <p>My full name is {fname} {lname}</p>
+    </>
+      
+    
+  ,
+
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
